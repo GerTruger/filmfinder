@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>playWithArray</title>
+    <link rel = "stylesheet" href = "play.css">
+    <script defer  src = "dataPlay.js" ></script>
+    <script defer  src = "play.js" ></script>
+    
+
+</head>
+<body>
+<header><h1>WincAcademy-filmFinder$</h1></header>
+
+<nav>
+      <div class="navigatie">
+        <input  name="finder"  type="radio"  value="All-movies"   checked />
+        <label> All movies</label>
+      </div>
+      
+      <div class="navigatie"> 
+        <input  name="finder"  type="radio"  value="New-movies" />
+        <label> New-movies</label>
+      </div>
+                
+      <div class="navigatie"> 
+        <input  name="finder"  type="radio"  value="Avengers" />
+        <label>Avenger-movies </label>
+      </div>     
+             
+      <div class="navigatie">
+        <input  name="finder"  type="radio"  value="X-Men" />
+        <label> X-Men-movies</label>
+      </div>     
+             
+      <div class="navigatie">
+        <input  name="finder"  type="radio"  value="Princess"  />
+        <label> Princess-movies</label>
+      </div>     
+     
+      <div class="navigatie">
+        <input  name="finder"  type="radio"  value="Batman" />
+        <label>Batman-movies</label>
+      </div>
+      
+    
+      <div id="zoekbalk">
+        <input
+        autocomplete="off"
+        type="search"
+        id="search"
+        placeholder="Search ......!" />
+      </div>
+</nav>
+
+<main>
+    <div id="container">
+      <ul id="overzicht"></ul>
+    </div>
+</main>
+
+<footer>made by GdeS</footer> 
+</body>
+</html>
